@@ -8,6 +8,17 @@
             name="description"content="Portofolio Pandu Adi Kusuma - Data Entry, Administrative Support, Software Engineering">
         <title>Pandu-Portofolio</title>
 
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'G-QCGZX6GPQG');
+        </script>
+
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
@@ -844,19 +855,6 @@
             }
             updateIcon();
         </script>
-
-        
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
-            gtag('config', 'G-QCGZX6GPQG');
-        </script>
-
     </body>
 
     </html>
