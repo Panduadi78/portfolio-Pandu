@@ -115,6 +115,7 @@
             }
 
             .hero-title {
+                font-size: 3.5rem;
                 color: #fff;
                 font-weight: 800;
             }
@@ -713,7 +714,8 @@
                         <h3 class="fw-bold">Pandu Adi Kusuma</h3>
 
                         <p class="text-light mt-3">
-                            -
+                            Data Entry Specialist & Administrative Support based in Bekasi, Indonesia.
+                            Open for freelance work and collaboration.
                         </p>
                     </div>
 
@@ -744,15 +746,11 @@
                             <i class="bi bi-geo-alt-fill me-2"></i> Bekasi, Jawa Barat
                         </p>
                     </div>
-
+                    
+                    {{-- target="_blank" --}}
                     <div class="col-lg-3">
                         <h5 class="fw-semibold mb-3">Let's Work Together</h5>
-
-                        <p class="text-light">
-                            -
-                        </p>
-
-                        <a href="https://wa.me/6288211176836?text=Halo%20Pandu" target="_blank" class="btn btn-success">
+                        <a href=""  class="btn btn-success">
                             <i class="bi bi-whatsapp"></i>
                             Chat WhatsApp
                         </a>
@@ -785,12 +783,15 @@
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 
         {{-- wa ngambang --}}
-        <a href="https://wa.me/6288211176836?text=Halo%20Pandu" target="_blank" class="floating-wa">
+        {{-- target="_blank" --}}
+        <a href="" class="floating-wa">
             <i class="bi bi-whatsapp"></i>
         </a>
 
+        {{-- navbar scroll --}}
         <script>
             window.addEventListener('scroll', function() {
                 const navbar = document.getElementById('navbar');
@@ -802,6 +803,7 @@
             });
         </script>
 
+        {{-- aos --}}
         <script>
             AOS.init({
                 duration: 1000,
@@ -831,6 +833,7 @@
             sections.forEach(section => observer.observe(section));
         </script>
 
+        {{-- dark/light mode --}}
         <script>
             const toggleBtn = document.getElementById('themeToggle');
 
@@ -855,6 +858,26 @@
             }
             updateIcon();
         </script>
+
+        {{-- teks muncul sec data entry... --}}
+        <script>
+            new Typed('#typed-text', {
+                strings: [
+                    'Data Entry Specialist',
+                    'Administrative Support',
+                    'Software Engineering'
+                ],
+
+                typeSpeed: 90,
+                backSpeed: 50,
+                backDelay: 1500,
+                loop: true,
+                showCursor: true,
+                cursorChar: '█'
+
+            });
+        </script>
+
     </body>
 
     </html>

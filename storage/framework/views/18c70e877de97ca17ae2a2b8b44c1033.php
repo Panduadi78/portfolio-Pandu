@@ -1,5 +1,5 @@
 <?php $__env->startSection('content'); ?>
-
+    
     <section class="hero-section" id="home">
         <div class="container">
             <div class="row align-items-center" style="min-height:100vh;">
@@ -14,24 +14,26 @@
                     </h1>
 
                     <h3 class="hero-subtitle mb-4">
-                        Data Entry | Administrative Support | Software Engginering
+                         I'm a <span id="typed-text"></span>
                     </h3>
 
                     <p class="lead hero-text">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur incidunt amet ipsum quisquam
-                        nihil. Harum pariatur sunt dolorem a quisquam ullam consequatur inventore aliquid labore. Molestias
-                        facere totam dolore eveniet.
+                        Passionate about data, administration, and technology.
+                        Experienced in data entry, administrative support, and web development.
+                        Ready to deliver accurate, efficient, and professional solutions
+                        to help your business grow and run smoothly.
                     </p>
 
                     <div class="mt-4">
-
-                        <a href="https://wa.me/6288211176836?text=Halo%20Pandu" class="btn btn-success btn-lg me-2"
-                            target="_blank">
+                        
+                        
+                        <a href="" class="btn btn-success btn-lg me-2">
                             <i class="bi bi-whatsapp"></i>
                             Contact Me
                         </a>
-
-                        <a href="/files/pandu.pdf" Download class="btn btn-outline-light btn-lg">
+                        
+                        
+                        <a href="" class="btn btn-outline-light btn-lg">
                             <i class="bi bi-download"></i>
                             Download Cv
                         </a>
@@ -141,7 +143,7 @@
                 <p>Technologies and tools I work with</p>
             </div>
 
-            <div class="row row-cols-2 row-cols-md-4 g-3" >
+            <div class="row row-cols-2 row-cols-md-4 g-3">
                 <div class="col">
                     <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
                         <i class="bi bi-file-earmark-code skill-icon"></i>
