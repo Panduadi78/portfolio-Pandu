@@ -662,6 +662,46 @@
             body:not(.dark-mode) .services-section .section-subtitle {
                 color: #64748b;
             }
+
+            @media (max-width: 991px) {
+
+                /* Fix navbar mobile */
+                #themeToggle {
+                    position: static !important;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+
+                #navbarMenu {
+                    padding: 15px;
+                    border-radius: 12px;
+                    margin-top: 10px;
+                }
+
+                /* Fix foto hero mobile */
+                .profile-image {
+                    width: 330px !important;
+                    height: 330px !important;
+                    margin-top: 20px;
+                }
+
+                /* Fix hero title mobile */
+                .hero-title {
+                    font-size: 2.5rem !important;
+                }
+
+                /* Fix about image mobile */
+                .about-image {
+                    height: 300px !important;
+                    margin-top: 20px !important;
+                }
+
+                @media (max-width: 991px) {
+                    .hero-section {
+                        padding-top: 80px;
+                    }
+                }
+            }
         </style>
     </head>
 
@@ -746,11 +786,11 @@
                             <i class="bi bi-geo-alt-fill me-2"></i> Bekasi, Jawa Barat
                         </p>
                     </div>
-                    
+
                     {{-- target="_blank" --}}
                     <div class="col-lg-3">
                         <h5 class="fw-semibold mb-3">Let's Work Together</h5>
-                        <a href=""  class="btn btn-success">
+                        <a href="" class="btn btn-success">
                             <i class="bi bi-whatsapp"></i>
                             Chat WhatsApp
                         </a>
@@ -786,7 +826,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 
         {{-- wa ngambang --}}
-        {{-- target="_blank" --}}
+        {{-- target="_blank"fi --}}
         <a href="" class="floating-wa">
             <i class="bi bi-whatsapp"></i>
         </a>
